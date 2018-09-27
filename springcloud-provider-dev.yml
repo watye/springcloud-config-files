@@ -12,13 +12,13 @@ pagehelper:
   supportMethodsArguments: true
   params-count: countSql
 #日志配置
-logging:
-  file: springboot-provider.log
-  level.org.springframework.web: debug
-  level.org.springframework.transaction: debug
-  level.org.mybatis: debug
-  level.com.talelife.myproject: debug
-  debug: false
+#logging:
+#  file: springboot-provider.log
+#  level.org.springframework.web: debug
+#  level.org.springframework.transaction: debug
+#  level.org.mybatis: debug
+#  level.com.talelife.myproject: debug
+#  debug: false
 #redis session
 redis:
   #hostName: 120.25.208.44
